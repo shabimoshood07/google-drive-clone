@@ -49,7 +49,7 @@ export function DriveList({ items, onNavigate }: DriveListProps) {
                         </TableCell>
                         <TableCell>{item.owner}</TableCell>
                         <TableCell>{item.modified}</TableCell>
-                        <TableCell>{item.size || '--'}</TableCell>
+                        <TableCell>{item.size ?? '--'}</TableCell>
                     </TableRow>
                 ))}
             </TableBody>

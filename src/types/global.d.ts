@@ -5,7 +5,7 @@ export type FileType =
   | "folder"
   | "other";
 
-export interface DriveItem {
+interface DriveItem {
   id: string;
   name: string;
   type: "folder" | "file";
