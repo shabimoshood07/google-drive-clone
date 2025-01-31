@@ -21,6 +21,8 @@
 
 #       - name: Lint
 #         run: npm lint
+
+name: CI
 on: [push]
   jobs:
     build:
